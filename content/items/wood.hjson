@@ -1,0 +1,10 @@
+name: Wood
+description: A wood resource for making ship, wood.
+
+color: 8B4513
+type: material
+
+hardness: 0.2
+cost: 0.2
+research: items
+hiddenOnPlanets: [serpulo, erekir]
