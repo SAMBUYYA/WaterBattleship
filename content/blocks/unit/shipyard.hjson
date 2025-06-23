@@ -17,7 +17,14 @@ plans: [
     requirements: [
       wood/250
     ]
-    time: 1000
+    time: 2000
+  },
+  {
+    unit: wood-aircraft-carrier
+    requirements: [
+      wood/2000
+    ]
+    time: 3500
   }
 ]
 

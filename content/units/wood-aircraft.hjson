@@ -1,0 +1,46 @@
+type: flying
+name: Wood Aircraft
+description: An aircraft.
+speed: 5
+health: 3800
+armor: 5
+drag: 0.1
+accel: 0.2
+hitSize: 25
+rotateSpeed: 3
+rotateMove: true
+trailLength: 15
+outlineColor: 8B4513
+flying: true
+weapons: [
+    {
+        mirror: false
+        rotate: false
+        name: wood-missile
+        shoot: {
+            shots: 1
+        }
+        shootY: 2
+        x: 0
+        y: 0
+        splashDamage: 50
+        splashDamageRadius: 50
+        reload: 200
+        recoil: 1.25
+        shootSound: wood-anti-aircraft
+        bullet: {
+            type: BasicBulletType
+            width: 5
+
+            lifetime: 60
+            damage: 450
+
+            speed: 5
+
+            trailColor: E3EBFB
+            trailWidth: 2
+            trailLength: 10
+        }
+    }
+]
+# research: wood-ship

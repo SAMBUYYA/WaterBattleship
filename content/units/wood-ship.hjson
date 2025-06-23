@@ -1,13 +1,13 @@
 type: naval
 name: Wood Ship
 description: Simple Ship.
-speed: 2
+speed: 0.7
 health: 25000
 armor: 10
 drag: 0.1
 accel: 1
-hitSize: 25
-rotateSpeed: 2
+hitSize: 60
+rotateSpeed: 0.4
 trailLength: 15
 outlineColor: 8B4513
 weapons: [
@@ -17,9 +17,9 @@ weapons: [
         name: wood-cannon
         shoot: {
             shots: 1
-            shotDelay: 2
         }
-        rotateSpeed: 4
+        rotateSpeed: 2
+        shootY: 10
         x: 0
         y: 25
         reload: 250
@@ -29,8 +29,8 @@ weapons: [
             type: BasicBulletType
             width: 5
             pierceCap: 2
-            lifetime: 167
-            damage: 250
+            lifetime: 160
+            damage: 500
             speed: 5
             smokeEffect: colorSpark
             trailColor: E3EBFB
@@ -44,20 +44,20 @@ weapons: [
         name: wood-cannon
         shoot: {
             shots: 1
-            shotDelay: 2
         }
-        rotateSpeed: 4
+        rotateSpeed: 2
+        shootY: 10
         x: 7
         y: -21
-        reload: 300
+        reload: 250
         recoil: 1.25
         shootSound: wood-cannon
         bullet: {
             type: BasicBulletType
             width: 5
             pierceCap: 2
-            lifetime: 167
-            damage: 250
+            lifetime: 160
+            damage: 500
             speed: 5
             smokeEffect: colorSpark
             trailColor: E3EBFB
@@ -71,12 +71,12 @@ weapons: [
         name: wood-cannon
         shoot: {
             shots: 1
-            shotDelay: 2
         }
-        rotateSpeed: 4
+        rotateSpeed: 2
+        shootY: 10
         x: -7
         y: -21
-        reload: 350
+        reload: 250
         recoil: 1.25
         shootSound: wood-cannon
         bullet: {
@@ -84,8 +84,8 @@ weapons: [
             width: 5
             pierceCap: 2
 
-            lifetime: 167
-            damage: 250
+            lifetime: 160
+            damage: 500
 
             speed: 5
 
