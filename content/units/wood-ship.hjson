@@ -4,8 +4,6 @@ description: Simple Ship.
 speed: 2
 health: 25000
 armor: 10
-aimDst: 90
-range: 100
 drag: 0.1
 accel: 1
 hitSize: 25
@@ -17,8 +15,6 @@ weapons: [
         mirror: false
         rotate: true
         name: wood-cannon
-        useAttackRange: true
-        autoTarget: true
         shoot: {
             shots: 1
             shotDelay: 2
@@ -28,41 +24,24 @@ weapons: [
         y: 25
         reload: 250
         recoil: 1.25
-        rangeOverride: 100
         shootSound: wood-cannon
         bullet: {
             type: BasicBulletType
             width: 5
-            splashDamageRadius: 100
-            splashDamage: 50
             pierceCap: 2
             lifetime: 167
-            damage: 100
+            damage: 250
             speed: 5
             smokeEffect: colorSpark
             trailColor: E3EBFB
             trailWidth: 2
             trailLength: 10
-            backColor: E3EBFB
-            hitColor: E3EBFB
-            despawnEffect: {
-                type: WaveEffect
-                rotWithParent: true
-                followParent: true
-                lifetime: 8
-                sizeFrom: 0
-                sizeTo: 15
-                colorFrom: ffffff
-                colorTo: feb380
-            }
         }
     },
     {
         mirror: false
         rotate: true
         name: wood-cannon
-        useAttackRange: true
-        autoTarget: true
         shoot: {
             shots: 1
             shotDelay: 2
@@ -72,41 +51,24 @@ weapons: [
         y: -21
         reload: 300
         recoil: 1.25
-        rangeOverride: 100
         shootSound: wood-cannon
         bullet: {
             type: BasicBulletType
             width: 5
-            splashDamageRadius: 100
-            splashDamage: 50
             pierceCap: 2
             lifetime: 167
-            damage: 100
+            damage: 250
             speed: 5
             smokeEffect: colorSpark
             trailColor: E3EBFB
             trailWidth: 2
             trailLength: 10
-            backColor: E3EBFB
-            hitColor: E3EBFB
-            despawnEffect: {
-                type: WaveEffect
-                rotWithParent: true
-                followParent: true
-                lifetime: 8
-                sizeFrom: 0
-                sizeTo: 15
-                colorFrom: ffffff
-                colorTo: feb380
-            }
         }
     },
     {
         mirror: false
         rotate: true
         name: wood-cannon
-        useAttackRange: true
-        autoTarget: true
         shoot: {
             shots: 1
             shotDelay: 2
@@ -116,33 +78,20 @@ weapons: [
         y: -21
         reload: 350
         recoil: 1.25
-        rangeOverride: 100
         shootSound: wood-cannon
         bullet: {
             type: BasicBulletType
             width: 5
-            splashDamageRadius: 100
-            splashDamage: 50
             pierceCap: 2
+
             lifetime: 167
-            damage: 100
+            damage: 250
+
             speed: 5
-            smokeEffect: colorSpark
+
             trailColor: E3EBFB
             trailWidth: 2
             trailLength: 10
-            backColor: E3EBFB
-            hitColor: E3EBFB
-            despawnEffect: {
-                type: WaveEffect
-                rotWithParent: true
-                followParent: true
-                lifetime: 8
-                sizeFrom: 0
-                sizeTo: 15
-                colorFrom: ffffff
-                colorTo: feb380
-            }
         }
     }
 ]
