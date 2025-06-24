@@ -9,27 +9,27 @@ description: Makes ship everything units.
 health: 7000
 configurable: true
 
-craftTime: 1200
+buildTime: 1000.0
 requirements: [
-  wood-tree/500
+  wood-log/500
   wood/200
 ]
 
-produceTime: 350
 plans: [
   {
     unit: wood-ship
     requirements: [
-      wood/250
+      wood/500
     ]
-    time: 2000
+    time: 2400
   },
   {
     unit: wood-aircraft-carrier
     requirements: [
+      wood-log/100
       wood/2000
     ]
-    time: 3500
+    time: 3600
   }
 ]
 

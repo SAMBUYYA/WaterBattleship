@@ -1,0 +1,15 @@
+type: StackConveyor
+category: distribution
+
+name: Wood Belt
+description: Bring an item from anywhere to anywhere.
+
+speed: 0.05
+itemCapacity: 25
+health: 1200
+
+requirements: [
+  wood-log/5
+]
+
+research: belt

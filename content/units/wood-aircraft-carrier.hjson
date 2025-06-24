@@ -1,6 +1,8 @@
 type: naval
+
 name: Wood Aircraft Carrier
 description: An aircraft carrier.
+
 speed: 0.2
 health: 37000
 armor: 20
@@ -8,6 +10,7 @@ drag: 0.1
 accel: 1
 hitSize: 60
 rotateSpeed: 0.3
+
 trailLength: 15
 outlineColor: 8B4513
 
@@ -15,14 +18,18 @@ abilities: [
   {
     type: UnitSpawnAbility
     unit: wood-aircraft
+
     spawnTime: 1200
+
     spawnX: 6
     spawnY: 20
   },
   {
     type: UnitSpawnAbility
     unit: wood-aircraft
+
     spawnTime: 1200
+	
     spawnX: 6
     spawnY: -20
   }
@@ -33,6 +40,7 @@ weapons: [
         mirror: false
         rotate: true
         name: wood-anti-aircraft
+
         shoot: {
             shots: 1
         }
@@ -41,11 +49,15 @@ weapons: [
         shootY: 6
         x: 7
         y: 27
-        splashDamage: 50
-        splashDamageRadius: 50
+        
         reload: 5
         recoil: 1.25
+
+        splashDamage: 50
+        splashDamageRadius: 50
+
         shootSound: wood-anti-aircraft
+
         bullet: {
             type: BasicBulletType
             width: 5
@@ -75,4 +87,5 @@ weapons: [
         }
     }
 ]
-# research: wood-ship
+
+research: wood-ship

@@ -1,0 +1,15 @@
+type: Drill
+category: production
+
+name: Wood Collector
+description: Collect every single wood log when placed.
+
+size: 5
+health: 2500
+hardnessDrillMultiplier: 100
+
+itemCapacity: 50
+
+requirements: [
+  wood-log/500
+]

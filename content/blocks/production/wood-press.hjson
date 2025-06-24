@@ -6,22 +6,23 @@ name: Wood Press
 description: Pressing a wood tree become wood.
 
 health: 5000
-itemCapacity: 20
+itemCapacity: 100
 
-craftTime: 50
+buildTime: 100.0
 requirements: [
-  wood-tree/200
+  wood-log/100
 ]
 
+craftTime: 60
 consumes: {
   items: {
     items: [
-      wood-tree/10
+      wood-log/15
     ]
   }
 }
 outputItems: [
-  wood/1
+  wood/5
 ]
 
 squareSprite: true
