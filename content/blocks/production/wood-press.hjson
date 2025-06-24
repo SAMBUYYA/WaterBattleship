@@ -1,0 +1,28 @@
+type: GenericCrafter
+category: crafting
+size: 5
+
+name: Wood Press
+description: Pressing a wood tree become wood.
+
+health: 5000
+itemCapacity: 20
+
+craftTime: 50
+requirements: [
+  wood-tree/200
+]
+
+consumes: {
+  items: {
+    items: [
+      wood-tree/10
+    ]
+  }
+}
+outputItems: [
+  wood/1
+]
+
+squareSprite: true
+research: factory

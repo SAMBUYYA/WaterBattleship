@@ -1,0 +1,10 @@
+name: Iron Ore
+description: An iron ore resource for making iron.
+
+color: c0c0c0
+type: material
+hardness: 0.1
+cost: 0.1
+
+research: items
+hiddenOnPlanets: [serpulo, erekir]

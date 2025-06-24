@@ -1,16 +1,21 @@
-name: Shipyard
-description: Makes ship everything units.
 type: UnitFactory
+category: units
 unitType: wood-ship
 size: 10
 
+name: Shipyard
+description: Makes ship everything units.
+
+health: 7000
 configurable: true
 
-produceTime: 350
-consumes: {
-  power: 3
-}
+craftTime: 1200
+requirements: [
+  wood-tree/500
+  wood/200
+]
 
+produceTime: 350
 plans: [
   {
     unit: wood-ship
@@ -28,8 +33,5 @@ plans: [
   }
 ]
 
-category: units
+squareSprite: true
 research: shipyard
-requirements: [
-  wood/1000
-]

@@ -21,8 +21,8 @@ weapons: [
             shots: 1
         }
         shootY: 2
-        x: 0
-        y: 0
+        x: 4
+        y: 2
         splashDamage: 50
         splashDamageRadius: 50
         reload: 200
@@ -32,8 +32,37 @@ weapons: [
             type: BasicBulletType
             width: 5
 
-            lifetime: 60
-            damage: 450
+            lifetime: 50
+            damage: 250
+
+            speed: 5
+
+            trailColor: E3EBFB
+            trailWidth: 2
+            trailLength: 10
+        }
+    },
+    {
+        mirror: false
+        rotate: false
+        name: wood-missile
+        shoot: {
+            shots: 1
+        }
+        shootY: 2
+        x: -4
+        y: 2
+        splashDamage: 50
+        splashDamageRadius: 50
+        reload: 200
+        recoil: 1.25
+        shootSound: wood-anti-aircraft
+        bullet: {
+            type: BasicBulletType
+            width: 5
+
+            lifetime: 50
+            damage: 250
 
             speed: 5
 

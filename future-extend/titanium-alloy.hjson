@@ -1,0 +1,10 @@
+name: Titanium Alloy
+description: A titanium resource for making body for ship.
+
+color: 7f8c8d
+type: material
+hardness: 1
+cost: 1
+
+research: items
+hiddenOnPlanets: [serpulo, erekir]

@@ -1,0 +1,10 @@
+name: Metal Alloy
+description: A metal alloy resource for making body for ship.
+
+color: A9A9A9
+type: material
+hardness: 1
+cost: 1
+
+research: items
+hiddenOnPlanets: [serpulo, erekir]
