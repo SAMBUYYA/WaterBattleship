@@ -10,7 +10,7 @@
 
 <br><br><br><br><br>
 [Join Discord](https://discord.gg/hSqjzEp5u7)
-<br><br><br><br><br>
+<br><br><br><br><br><br>
 
 
 
