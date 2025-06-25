@@ -11,25 +11,33 @@ configurable: true
 
 buildTime: 1000.0
 requirements: [
-  wood-log/500
-  wood/200
+	wood-log/500
+	wood/200
 ]
 
 plans: [
   {
     unit: wood-ship
     requirements: [
-      wood/500
+    	wood/500
     ]
-    time: 2400
+	time: 2400
   },
   {
     unit: wood-aircraft-carrier
     requirements: [
-      wood-log/100
-      wood/2000
+    	wood-log/100
+    	wood/2000
     ]
-    time: 3600
+	time: 3600
+  },
+    {
+    unit: wood-cruiser
+    requirements: [
+    	wood-log/100
+    	wood/2000
+    ]
+	time: 4800
   }
 ]
 
