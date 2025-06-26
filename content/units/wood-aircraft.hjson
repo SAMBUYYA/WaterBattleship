@@ -3,13 +3,17 @@ type: flying
 name: Wood Aircraft
 description: An aircraft.
 
+circleTarget: true
+faceTarget: true
+strafePenalty: 0
+accel: 0.075
+drag: 0.075
+
 speed: 5
-health: 3800
+health: 3700
 armor: 5
-drag: 0.1
-accel: 0.2
-hitSize: 25
-rotateSpeed: 3
+hitSize: 15
+rotateSpeed: 25
 rotateMove: true
 flying: true
 
@@ -42,7 +46,7 @@ weapons: [
             width: 5
 
             lifetime: 50
-            damage: 250
+            damage: 300
 
             speed: 5
 
@@ -76,7 +80,7 @@ weapons: [
             width: 5
 
             lifetime: 50
-            damage: 250
+            damage: 300
 
             speed: 5
 

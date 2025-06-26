@@ -1,0 +1,10 @@
+type: Floor
+name: Water Level 1
+
+speedMultiplier: 1
+variants: 4
+
+isLiquid: true
+cacheLayer: water
+
+supportsOverlay: true

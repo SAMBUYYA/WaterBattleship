@@ -1,0 +1,11 @@
+type: Floor
+name: Water Level 2
+
+speedMultiplier: 1
+variants: 4
+
+drownTime: 250
+isLiquid: true
+cacheLayer: water
+
+supportsOverlay: true
