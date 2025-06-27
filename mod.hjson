@@ -1,12 +1,12 @@
 name: "water-battleship"
 displayName: "Water Battleship"
 
-subtitle: "V 0.5 | Wars at Water"
+subtitle: "V 0.6 | Wars at Water"
 description: "Let us war at the water territory!"
 
 author: SAMBUYYA
 
-version: "0.5"
+version: "0.6"
 minGameVersion: "146"
 
 dependencies: [ ]

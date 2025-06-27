@@ -26,7 +26,7 @@ weapons: [
         rotateSpeed: 2
         shootY: 10
         x: 0
-        y: 14
+        y: 15
 
         reload: 60
         recoil: 1.25
@@ -72,8 +72,9 @@ weapons: [
         shootSound: wood-missile
 
         bullet: {
-            type: BasicBulletType
+            type: MissileBulletType
             width: 5
+            height: 20
 
             lifetime: 300
             damage: 800
