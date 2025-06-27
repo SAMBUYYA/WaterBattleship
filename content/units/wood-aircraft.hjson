@@ -24,7 +24,7 @@ weapons: [
     {
         mirror: false
         rotate: false
-        name: wood-missile
+        name: wood-gun
 
         shoot: {
             shots: 1
@@ -58,7 +58,7 @@ weapons: [
     {
         mirror: false
         rotate: false
-        name: wood-missile
+        name: wood-gun
 
         shoot: {
             shots: 1
