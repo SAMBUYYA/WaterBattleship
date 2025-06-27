@@ -1,3 +1,5 @@
+<p align="center"><img src="icon.png" alt="icon"></p>
+
 # Water Battleship
 A mod game for mindustry
 
