@@ -15,24 +15,24 @@ trailLength: 15
 outlineColor: 8B4513
 
 abilities: [
-  {
-    type: UnitSpawnAbility
-    unit: wood-aircraft
+	{
+		type: UnitSpawnAbility
+		unit: wood-aircraft
 
-    spawnTime: 1200
+		spawnTime: 1200
 
-    spawnX: 6
-    spawnY: 20
-  },
-  {
-    type: UnitSpawnAbility
-    unit: wood-aircraft
+		spawnX: 6
+		spawnY: 20
+	},
+	{
+		type: UnitSpawnAbility
+		unit: wood-aircraft
 
-    spawnTime: 1200
-	
-    spawnX: 6
-    spawnY: -20
-  }
+		spawnTime: 1200
+		
+		spawnX: 6
+		spawnY: -20
+	}
 ]
 
 weapons: [
@@ -88,4 +88,5 @@ weapons: [
     }
 ]
 
-research: wood-ship
+research: shipyard
+researchCostMultiplier: 0.01

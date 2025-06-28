@@ -10,20 +10,24 @@ itemCapacity: 100
 
 buildTime: 100.0
 requirements: [
-  wood-log/100
+  	wood-log/100
 ]
 
 craftTime: 60
 consumes: {
-  items: {
-    items: [
-      wood-log/15
-    ]
-  }
+	items: {
+		items: [
+			wood-log/15
+		]
+	}
 }
 outputItems: [
-  wood/5
+	wood/5
 ]
 
 squareSprite: true
-research: factory
+
+research: wood-core
+researchCost: [
+	wood-log/10
+]

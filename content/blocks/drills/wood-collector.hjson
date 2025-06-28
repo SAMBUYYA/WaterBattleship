@@ -11,5 +11,10 @@ hardnessDrillMultiplier: 100
 itemCapacity: 50
 
 requirements: [
-  wood-log/500
+  	wood-log/500
+]
+
+research: wood-core
+researchCost: [
+	wood-log/10
 ]

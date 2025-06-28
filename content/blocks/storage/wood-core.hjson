@@ -13,13 +13,19 @@ unitCapModifier: 5
 unitType: wood-drone-core
 
 requirements: [
-  wood-log/3000
-  wood/500
+    wood-log/3000
+    wood/500
 ]
 
 incinerateNonBuildable: false
 alwaysUnlocked: true
 isFirstTier: true
-requiresCoreZone: true
 
 squareSprite: true
+
+research: {
+    planet: water-world
+    root: true
+    name: Water World
+    requiresUnlock: false
+}

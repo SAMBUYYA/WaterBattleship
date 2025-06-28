@@ -79,7 +79,7 @@ weapons: [
             lifetime: 300
             damage: 800
 
-            homingPower: 1
+            homingPower: 0.05
             homingRange: 350
             homingDelay: 20
 
@@ -106,4 +106,5 @@ weapons: [
     }
 ]
 
-research: wood-ship
+research: shipyard
+researchCostMultiplier: 0.01

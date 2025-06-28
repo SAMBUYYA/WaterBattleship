@@ -1,0 +1,12 @@
+planet: water-world
+
+localizedName: The Invasion
+description: After going through years Sharded find the new planet full of water and try to invade the planet, Now you need to defense to protect your waters territory and your planet.
+
+captureWave: 30
+
+sector: 0
+difficulty: 6
+alwaysUnlocked: true
+
+research: wood-core

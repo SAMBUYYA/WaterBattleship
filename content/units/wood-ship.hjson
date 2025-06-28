@@ -116,4 +116,5 @@ weapons: [
     }
 ]
 
-research: wood-ship
+research: shipyard
+researchCostMultiplier: 0.01

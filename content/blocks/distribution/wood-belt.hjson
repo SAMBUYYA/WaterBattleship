@@ -9,7 +9,10 @@ itemCapacity: 25
 health: 1200
 
 requirements: [
-  wood-log/5
+	wood-log/5
 ]
 
-research: belt
+research: wood-core
+researchCost: [
+	wood-log/10
+]

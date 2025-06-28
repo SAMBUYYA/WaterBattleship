@@ -16,30 +16,43 @@ requirements: [
 ]
 
 plans: [
-  {
-    unit: wood-ship
-    requirements: [
-    	wood/500
-    ]
-	time: 2400
-  },
-  {
-    unit: wood-aircraft-carrier
-    requirements: [
-    	wood-log/100
-    	wood/2000
-    ]
-	time: 3600
-  },
     {
-    unit: wood-cruiser
-    requirements: [
-    	wood-log/100
-    	wood/2000
-    ]
-	time: 4800
-  }
+        unit: wood-ship
+        requirements: [
+            wood/500
+        ]
+        time: 2400
+    },
+    {
+        unit: wood-aircraft-carrier
+        requirements: [
+            wood-log/100
+            wood/2000
+        ]
+        time: 3600
+    },
+    {
+        unit: wood-cruiser
+        requirements: [
+            wood-log/100
+            wood/2000
+        ]
+        time: 3600
+    },
+    {
+        unit: wood-destroyer
+        requirements: [
+            wood-log/200
+            wood/2000
+        ]
+        time: 4800
+    }
 ]
 
 squareSprite: true
-research: shipyard
+
+research: wood-core
+researchCost: [
+    wood-log/10
+    wood/10
+]
