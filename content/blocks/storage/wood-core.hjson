@@ -1,0 +1,25 @@
+type: CoreBlock
+category: effect
+
+name: Wood Core
+description: The simple core.
+
+size: 5
+health: 15000
+armor: 10
+itemCapacity: 12000
+unitCapModifier: 5
+
+unitType: wood-drone-core
+
+requirements: [
+  wood-log/3000
+  wood/500
+]
+
+incinerateNonBuildable: false
+alwaysUnlocked: true
+isFirstTier: true
+requiresCoreZone: true
+
+squareSprite: true

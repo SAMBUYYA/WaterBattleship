@@ -1,0 +1,68 @@
+type: flying
+
+name: Wood Drone Core
+description: A drone can build anything, control anything and spy the enemy.
+
+speed: 10
+health: 2000
+armor: 5
+drag: 0.1
+accel: 0.2
+rotateSpeed: 10
+
+flying: true
+controller: BuilderAI
+faceTarget: true
+targetPriority: -2
+
+mineFloor: true
+mineWalls: false
+
+isEnemy: false
+hittable: false
+targetable: false
+mineSpeed: 16
+mineTier: 1
+buildSpeed: 1.1
+
+itemCapacity: 100
+
+trailColor: 6bafff
+trailLength: 12
+
+weapons: [
+  	{
+		type: RepairBeamWeapon
+		mirror: false
+		rotate: false
+
+		widthSinMag: 0.1
+		x: 0
+		y: 5
+		laserColor: 6bafff
+
+		targetBuildings: true
+		targetUnits: false
+		autoTarget: false
+		controllable: true
+
+		reload: 25
+		shootY: 0
+		shootCone: 5
+		beamWidth: 1
+
+		repairSpeed: 100
+		fractionRepairSpeed: 0.08
+
+		bullet: {
+			type: BulletType
+			maxRange: 150
+		}
+    }
+]
+
+hidden: true
+useUnitCap: false
+logicControllable: false
+allowedInPayloads: false
+createWreck: false
