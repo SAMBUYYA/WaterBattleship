@@ -1,0 +1,19 @@
+planet: water-world
+
+localizedName: They Upgrades
+description: After the experience in the previous assault mastery, sharded is very easy to know the enemy's facilities and develop their own. But we also do not just stand still, but we have the reliability in strategy to repel them!
+
+captureWave: 45
+
+sector: 1
+difficulty: 8
+
+research: {
+    parent: 01-the-invasion
+    objectives: [
+        {
+        type: SectorComplete
+        preset: 01-the-invasion
+        }
+    ]
+}

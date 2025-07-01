@@ -1,0 +1,6 @@
+type: Floor
+name: Zone Core Level 1
+
+variants: 0
+
+allowCorePlacement: true

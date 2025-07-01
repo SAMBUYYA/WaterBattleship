@@ -46,6 +46,14 @@ plans: [
             wood/2000
         ]
         time: 4800
+    },
+    {
+        unit: wood-battleship
+        requirements: [
+            wood-log/250
+            wood/2100
+        ]
+        time: 5400
     }
 ]
 

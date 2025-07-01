@@ -57,7 +57,6 @@ prebuildBase: true
 defaultCore: wood-core
 parent: sun
 solarSystem: sun
-tidalLock: true
 orbitSpacing: 1
 
 enemyBuildSpeedMultiplier: 1
