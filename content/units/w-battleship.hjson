@@ -1,0 +1,232 @@
+type: naval
+
+name: Wood Battleship
+description: A battleship.
+
+speed: 0.5
+health: 30000
+armor: 20
+drag: 0.15
+accel: 0.15
+hitSize: 60
+rotateSpeed: 0.7
+
+trailLength: 15
+outlineColor: 8B4513
+
+weapons: [
+    {
+        mirror: false
+        rotate: true
+        name: w-main-cannon
+
+        shoot: {
+            shots: 3
+            shotDelay: 10
+        }
+        rotateSpeed: 2
+        shootY: 10
+        x: 0
+        y: 26
+
+        reload: 250
+        recoil: 1.25
+
+        shootSound: w-main-cannon
+
+        bullet: {
+            type: BasicBulletType
+            width: 5
+            pierceCap: 2
+
+            lifetime: 165
+            damage: 450
+
+            speed: 5
+
+            trailColor: E3EBFB
+            trailWidth: 2
+            trailLength: 10
+        }
+    },
+    {
+        mirror: false
+        rotate: true
+        name: w-main-cannon
+
+        shoot: {
+            shots: 3
+            shotDelay: 10
+        }
+        rotateSpeed: 2
+        shootY: 10
+        x: 0
+        y: 4
+
+        reload: 250
+        recoil: 1.25
+
+        shootSound: w-main-cannon
+
+        bullet: {
+            type: BasicBulletType
+            width: 5
+            pierceCap: 2
+
+            lifetime: 165
+            damage: 450
+
+            speed: 5
+
+            trailColor: E3EBFB
+            trailWidth: 2
+            trailLength: 10
+        }
+    },
+    {
+        mirror: false
+        rotate: true
+        name: w-main-cannon
+
+        shoot: {
+            shots: 3
+            shotDelay: 10
+        }
+        rotateSpeed: 2
+        shootY: 10
+        x: 0
+        y: -28
+
+        reload: 250
+        recoil: 1.25
+
+        baseRotation: 180.0
+        shootSound: w-main-cannon
+
+        bullet: {
+            type: BasicBulletType
+            width: 5
+            pierceCap: 2
+
+            lifetime: 165
+            damage: 450
+
+            speed: 5
+
+            trailColor: E3EBFB
+            trailWidth: 2
+            trailLength: 10
+        }
+    },
+    {
+        mirror: false
+        rotate: true
+        name: w-anti-aircraft-small
+
+        shoot: {
+            shots: 1
+        }
+        inaccuracy: 25
+        rotateSpeed: 5
+        shootY: 6
+        x: 12
+        y: -19
+        
+        reload: 10
+        recoil: 1.25
+
+        splashDamage: 50
+        splashDamageRadius: 50
+
+        shootSound: w-anti-aircraft
+
+        bullet: {
+            type: BasicBulletType
+            width: 5
+
+            lifetime: 80
+            damage: 60
+
+            speed: 5
+
+            trailColor: E3EBFB
+            trailWidth: 2
+            trailLength: 10
+
+            fragSpread: 5
+            fragBullets: 3
+            fragBullet: {
+                type: BasicBulletType
+                speed: 6
+                lifetime: 4
+                height: 3
+                width: 3
+                damage: 10
+                splashDamage: 10
+                splashDamageRadius: 10
+                pierceCap: 2
+            }
+        }
+    },
+    {
+        mirror: false
+        rotate: true
+        name: w-anti-aircraft-small
+
+        shoot: {
+            shots: 1
+        }
+        inaccuracy: 25
+        rotateSpeed: 5
+        shootY: 6
+        x: -12
+        y: -19
+        
+        reload: 10
+        recoil: 1.25
+
+        splashDamage: 50
+        splashDamageRadius: 50
+
+        shootSound: w-anti-aircraft
+
+        bullet: {
+            type: BasicBulletType
+            width: 5
+
+            lifetime: 80
+            damage: 60
+
+            speed: 5
+
+            trailColor: E3EBFB
+            trailWidth: 2
+            trailLength: 10
+
+            fragSpread: 5
+            fragBullets: 3
+            fragBullet: {
+                type: BasicBulletType
+                speed: 6
+                lifetime: 4
+                height: 3
+                width: 3
+                damage: 10
+                splashDamage: 10
+                splashDamageRadius: 10
+                pierceCap: 2
+            }
+        }
+    },
+]
+
+research: {
+  parent: shipyard
+    objectives: [
+        {
+        type: SectorComplete
+        preset: 01-the-invasion
+        }
+    ]
+}
+researchCostMultiplier: 0.1

@@ -1,0 +1,92 @@
+type: naval
+
+name: Wood Aircraft Carrier
+description: An aircraft carrier.
+
+speed: 0.3
+health: 37000
+armor: 20
+drag: 0.1
+accel: 0.1
+hitSize: 60
+rotateSpeed: 0.3
+
+trailLength: 15
+outlineColor: 8B4513
+
+abilities: [
+	{
+		type: UnitSpawnAbility
+		unit: w-aircraft
+
+		spawnTime: 1200
+
+		spawnX: 6
+		spawnY: 20
+	},
+	{
+		type: UnitSpawnAbility
+		unit: w-aircraft
+
+		spawnTime: 1200
+		
+		spawnX: 6
+		spawnY: -20
+	}
+]
+
+weapons: [
+    {
+        mirror: false
+        rotate: true
+        name: w-anti-aircraft
+
+        shoot: {
+            shots: 1
+        }
+        inaccuracy: 25
+        rotateSpeed: 5
+        shootY: 6
+        x: 7
+        y: 27
+        
+        reload: 5
+        recoil: 1.25
+
+        splashDamage: 50
+        splashDamageRadius: 50
+
+        shootSound: w-anti-aircraft
+
+        bullet: {
+            type: BasicBulletType
+            width: 5
+
+            lifetime: 80
+            damage: 100
+
+            speed: 5
+
+            trailColor: E3EBFB
+            trailWidth: 2
+            trailLength: 10
+
+            fragSpread: 5
+            fragBullets: 3
+            fragBullet: {
+                type: BasicBulletType
+                speed: 6
+                lifetime: 4
+                height: 3
+                width: 3
+                damage: 10
+                splashDamage: 10
+                splashDamageRadius: 10
+                pierceCap: 2
+            }
+        }
+    }
+]
+
+research: shipyard
+researchCostMultiplier: 0.01

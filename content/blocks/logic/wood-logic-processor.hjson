@@ -1,0 +1,20 @@
+type: LogicBlock
+category: logic
+size: 3
+
+name: Wood Logic Processor
+description: Can running logic or control building or unit.
+
+health: 2000
+instructionsPerTick: 10
+range: 320.0
+
+requirements: [
+  wood-log/50
+  wood/10
+]
+
+squareSprite: true
+
+research: wood-core
+researchCostMultiplier: 0.5

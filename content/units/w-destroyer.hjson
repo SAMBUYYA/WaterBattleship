@@ -1,0 +1,110 @@
+type: naval
+
+name: Wood Destroyer
+description: A destroyer ship.
+
+speed: 1.2
+health: 26000
+armor: 10
+drag: 0.1
+accel: 0.1
+hitSize: 60
+rotateSpeed: 0.9
+
+trailLength: 15
+outlineColor: 8B4513
+
+weapons: [
+    {
+        mirror: false
+        rotate: true
+        name: w-cannon
+
+        shoot: {
+            shots: 1
+        }
+        rotateSpeed: 2
+        shootY: 10
+        x: 0
+        y: 15
+
+        reload: 60
+        recoil: 1.25
+
+        shootSound: w-cannon-simple
+
+        bullet: {
+            type: BasicBulletType
+            width: 5
+            pierceCap: 2
+
+            lifetime: 100
+            damage: 80
+
+            speed: 5
+
+            trailColor: E3EBFB
+            trailWidth: 2
+            trailLength: 10
+        }
+    },
+    {
+        mirror: false
+        rotate: true
+        name: w-missile
+
+        shoot: {
+            shots: 3
+            shotDelay: 10
+        }
+        inaccuracy: 25
+        rotateSpeed: 5
+        shootY: 6
+        x: 0
+        y: -16
+        
+        reload: 500
+        recoil: 1.25
+
+        splashDamage: 100
+        splashDamageRadius: 100
+
+        shootSound: w-missile
+
+        bullet: {
+            type: MissileBulletType
+            width: 5
+            height: 20
+
+            lifetime: 300
+            damage: 800
+
+            homingPower: 0.05
+            homingRange: 350
+            homingDelay: 20
+
+            speed: 3
+
+            trailColor: E3EBFB
+            trailWidth: 2
+            trailLength: 10
+
+            fragSpread: 10
+            fragBullets: 10
+            fragBullet: {
+                type: BasicBulletType
+                speed: 5
+                lifetime: 10
+                height: 5
+                width: 5
+                damage: 50
+                splashDamage: 10
+                splashDamageRadius: 50
+                pierceCap: 1
+            }
+        }
+    }
+]
+
+research: shipyard
+researchCostMultiplier: 0.01
