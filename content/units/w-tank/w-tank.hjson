@@ -1,0 +1,62 @@
+type: tank
+
+name: Wood Tank
+description: A tank, the best unit for ground attack.
+
+speed: 0.7
+health: 4000
+armor: 5
+hitSize: 15
+rotateSpeed: 3.5
+
+treadPullOffset: 0
+faceTarget: false
+
+outlineColor: 8B4513
+
+treadRects: [
+    {
+        x: -18
+        y: -10
+        width: 6
+        height: 20
+    }
+]
+
+weapons: [
+    {
+        mirror: false
+        rotate: true
+        name: w-cannon-tank
+
+        shoot: {
+            shots: 1
+        }
+        rotateSpeed: 2
+        shootY: 18
+        x: 0
+        y: 0
+
+        reload: 250
+        recoil: 1.25
+
+        shootSound: w-cannon
+
+        bullet: {
+            type: BasicBulletType
+            width: 5
+            pierceCap: 2
+
+            lifetime: 70
+            damage: 500
+
+            speed: 5
+
+            trailColor: E3EBFB
+            trailWidth: 2
+            trailLength: 10
+        }
+    }
+]
+
+#research: shipyard
