@@ -54,6 +54,14 @@ plans: [
             wood/2100
         ]
         time: 5400
+    },
+    {
+        unit: w-landing-craft
+        requirements: [
+            wood-log/100
+            wood/2000
+        ]
+        time: 2400
     }
 ]
 

@@ -1,0 +1,19 @@
+planet: water-world
+
+localizedName: The Side Attack
+description: After cannot attack from the front, now they try attack from the side.
+
+captureWave: 50
+
+sector: 2
+difficulty: 10
+
+research: {
+    parent: 02-they-upgrades
+    objectives: [
+        {
+        type: SectorComplete
+        preset: 02-they-upgrades
+        }
+    ]
+}

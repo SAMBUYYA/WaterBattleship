@@ -1,0 +1,65 @@
+type: naval
+
+name: Wood Landing Craft
+description: An landing craft.
+
+speed: 0.5
+health: 20000
+armor: 5
+drag: 0.2
+accel: 0.2
+hitSize: 60
+rotateSpeed: 0.5
+
+trailLength: 15
+outlineColor: 8B4513
+
+abilities: [
+	{
+		type: UnitSpawnAbility
+		unit: w-tank
+
+		spawnTime: 2400
+
+		spawnX: 6
+		spawnY: 18
+	},
+	{
+		type: UnitSpawnAbility
+		unit: w-tank
+
+		spawnTime: 2400
+		
+		spawnX: 6
+		spawnY: -12
+	},
+    {
+		type: UnitSpawnAbility
+		unit: w-tank
+
+		spawnTime: 2400
+
+		spawnX: -6
+		spawnY: 18
+	},
+	{
+		type: UnitSpawnAbility
+		unit: w-tank
+
+		spawnTime: 2400
+		
+		spawnX: -6
+		spawnY: -12
+	},
+]
+
+research: {
+  parent: shipyard
+    objectives: [
+        {
+        type: SectorComplete
+        preset: 02-they-upgrades
+        }
+    ]
+}
+researchCostMultiplier: 0.5
